@@ -1,32 +1,20 @@
-/* 
-  Build below HTML structure using React
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-  <div id="parent">
-    <div id="child">
-      <h1>Hello From React!</h1>
-      <h2>Namaste React</h2>
-    <div>
-  </div>
+/** FoodieHub
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Searchbar
+ *  - Card Container
+ *     - Restaurant cards
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address Info
+ */
 
-*/
-
-const heading = React.createElement(
-  "h1",
-  { id: "heading", className: "header" },
-  "Hello World From React!"
-);
-
-//React.createElement will create a React object which is normal javascript object,
-//React.render will convert it to HTML elements and replace the content under the id specified in inde.html.
-
-const element = React.createElement(
-  "div",
-  { id: "parent" },
-  React.createElement("div", { id: "child" }, [
-    React.createElement("div", {}, "Hello From React!"),
-    React.createElement("div", {}, "Namaste React!"),
-  ])
-);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(element);
+root.render(<HeadingComponent />);

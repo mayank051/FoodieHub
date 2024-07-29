@@ -1,0 +1,31 @@
+{
+  "name": "foodie-hub",
+  "version": "1.0.0",
+  "description": "this is React JS using React18",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank051/ReactJS.git"
+  },
+  "author": "Mayank Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank051/ReactJS/issues"
+  },
+  "homepage": "https://github.com/mayank051/ReactJS#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
