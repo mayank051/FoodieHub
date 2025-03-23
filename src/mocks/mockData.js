@@ -1,939 +1,669 @@
 export const respData = [
   {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "107747",
-          name: "Biggies Burger",
-          cloudinaryImageId: "22c5927a9f5bc4526e9dfe9b12cbc03f",
-          locality: "2nd Phase",
-          areaName: "Electronic City",
-          costForTwo: "₹350 for two",
-          cuisines: ["Burgers", "American", "Fast Food", "Beverages"],
-          avgRating: 4.4,
-          parentId: "45723",
-          avgRatingString: "4.4",
-          totalRatingsString: "1K+",
-          promoted: true,
-          adTrackingId:
-            "cid=15892628~p=0~adgrpid=15892628#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=107747~eid=992a3c71-0832-4fa3-83cc-d67f87634c3c~srvts=1722276948072~collid=83669",
-          sla: {
-            deliveryTime: 20,
-            lastMileTravel: 1.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-25 mins",
-            lastMileTravelString: "1.5 km",
-            iconType: "ICON_TYPE_EMPTY",
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "405798",
+      name: "Chinese Wok",
+      cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+      locality: "Malleshwaram",
+      areaName: "Malleshwaram",
+      costForTwo: "₹250 for two",
+      cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
+      avgRating: 4.4,
+      parentId: "61955",
+      avgRatingString: "4.4",
+      totalRatingsString: "1.3K+",
+      sla: {
+        deliveryTime: 59,
+        lastMileTravel: 5,
+        serviceability: "SERVICEABLE",
+        slaString: "55-60 mins",
+        lastMileTravelString: "5.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-03-23 22:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+            description: "Delivery!",
           },
-          availability: {
-            nextCloseTime: "2024-07-30 05:00:00",
-            opened: true,
-          },
-          badges: {
-            textExtendedBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                iconId: "guiltfree/GF_Logo_android_3x",
-                shortDescription: "options available",
-                fontColor: "#7E808C",
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textBased: {},
-              imageBased: {},
-              textExtendedBadges: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      iconId: "guiltfree/GF_Logo_android_3x",
-                      description: "",
-                      shortDescription: "options available",
-                      fontColor: "#7E808C",
-                    },
-                  },
-                ],
-              },
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "40% OFF",
-            subHeader: "UPTO ₹75",
-            discountCalloutInfo: {
-              message: "Free Delivery",
-              logoCtx: {
-                logo: "v1655895371/free_delivery_logo_hqipbo.png",
-              },
-            },
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=107747&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹129",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "3.5",
+          ratingCount: "63",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
       },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/chinese-wok-malleshwaram-rest405798",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "407388",
-          name: "KFC",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/d08dc977-5e85-46df-8142-feb32cd9873b_407388.JPG",
-          locality: "2nd Phase",
-          areaName: "Electronic City",
-          costForTwo: "₹400 for two",
-          cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
-          avgRating: 4.3,
-          parentId: "547",
-          avgRatingString: "4.3",
-          totalRatingsString: "1K+",
-          sla: {
-            deliveryTime: 23,
-            lastMileTravel: 1.6,
-            serviceability: "SERVICEABLE",
-            slaString: "20-25 mins",
-            lastMileTravelString: "1.6 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-30 01:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          aggregatedDiscountInfoV2: {},
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textExtendedBadges: {},
-              textBased: {},
-            },
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=407388&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "10575",
+      name: "Pizza Hut",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/5b9c53df-e0cb-48fc-ac31-f02735592edc_10575.jpg",
+      locality: "Richmond Town",
+      areaName: "Central Bangalore",
+      costForTwo: "₹600 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 4.3,
+      parentId: "721",
+      avgRatingString: "4.3",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 49,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "45-50 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
+      availability: {
+        nextCloseTime: "2025-03-24 03:00:00",
+        opened: true,
       },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.1",
+          ratingCount: "1.9K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/pizza-hut-richmond-town-central-bangalore-rest10575",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "268782",
-          name: "Leon's - Burgers & Wings (Leon Grill)",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/2/4c1e29e2-fecf-41b6-8b21-5a58338247fe_268782.jpg",
-          locality: "Electronic City",
-          areaName: "Electronic City",
-          costForTwo: "₹300 for two",
-          cuisines: [
-            "American",
-            "Snacks",
-            "Turkish",
-            "Portuguese",
-            "Continental",
-          ],
-          avgRating: 4.4,
-          parentId: "371281",
-          avgRatingString: "4.4",
-          totalRatingsString: "10K+",
-          promoted: true,
-          adTrackingId:
-            "cid=15803957~p=2~adgrpid=15803957#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=268782~eid=0190a2f0-bad1-4462-b8db-775078f53d8d~srvts=1722276948072~collid=83669",
-          sla: {
-            deliveryTime: 28,
-            lastMileTravel: 6.3,
-            serviceability: "SERVICEABLE",
-            slaString: "25-30 mins",
-            lastMileTravelString: "6.3 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-30 04:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          aggregatedDiscountInfoV2: {},
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textExtendedBadges: {},
-              textBased: {},
-              imageBased: {},
-            },
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "4.6",
-              ratingCount: "1K+",
-            },
-            source: "GOOGLE",
-            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=268782&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "102334",
+      name: "Dindigul Thalappakatti",
+      cloudinaryImageId: "ogidjgqgh5w4otvuiipj",
+      locality: "Mg Road",
+      areaName: "Indiranagar",
+      costForTwo: "₹650 for two",
+      cuisines: [
+        "Biryani",
+        "Barbecue",
+        "South Indian",
+        "Chinese",
+        "North Indian",
+      ],
+      avgRating: 4.4,
+      parentId: "332",
+      avgRatingString: "4.4",
+      totalRatingsString: "9.0K+",
+      sla: {
+        deliveryTime: 38,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "35-40 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
+      availability: {
+        nextCloseTime: "2025-03-23 23:59:00",
+        opened: true,
       },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹179",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/dindigul-thalappakatti-mg-road-indiranagar-rest102334",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "321863",
-          name: "Bigguys Wings & More",
-          cloudinaryImageId: "a3875b168c12b0eb1c40d809a98b95a9",
-          locality: "2nd Stage",
-          areaName: "Electronic City",
-          costForTwo: "₹300 for two",
-          cuisines: ["American", "Beverages", "Burgers", "Biryani"],
-          avgRating: 4.1,
-          parentId: "503744",
-          avgRatingString: "4.1",
-          totalRatingsString: "500+",
-          sla: {
-            deliveryTime: 25,
-            lastMileTravel: 1.4,
-            serviceability: "SERVICEABLE",
-            slaString: "20-25 mins",
-            lastMileTravelString: "1.4 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-30 05:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textExtendedBadges: {},
-              textBased: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "60% OFF",
-            subHeader: "UPTO ₹120",
-            discountCalloutInfo: {
-              message: "Free Delivery",
-              logoCtx: {
-                logo: "v1655895371/free_delivery_logo_hqipbo.png",
-              },
-            },
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=321863&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "5938",
+      name: "Burger King",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/21d5d712-09a3-42d0-b1b2-310e44cc5dfe_5938.jpg",
+      locality: "Tasker Town",
+      areaName: "Shivaji Nagar",
+      costForTwo: "₹350 for two",
+      cuisines: ["Burgers", "American"],
+      avgRating: 4.4,
+      parentId: "166",
+      avgRatingString: "4.4",
+      totalRatingsString: "38K+",
+      sla: {
+        deliveryTime: 36,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "35-40 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
+      availability: {
+        nextCloseTime: "2025-03-24 04:00:00",
+        opened: true,
       },
-    },
-  },
-  {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "358341",
-          name: "Truffles",
-          cloudinaryImageId: "pw6bof8c9kb7ilwzjfao",
-          locality: "Doddathogur Village",
-          areaName: "Electronic City",
-          costForTwo: "₹350 for two",
-          cuisines: [
-            "American",
-            "Beverages",
-            "Continental",
-            "Desserts",
-            "Italian",
-          ],
-          avgRating: 4.5,
-          parentId: "218065",
-          avgRatingString: "4.5",
-          totalRatingsString: "10K+",
-          promoted: true,
-          adTrackingId:
-            "cid=15803985~p=3~adgrpid=15803985#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=358341~eid=9e1c1353-3481-432a-9ba7-bb88022d8c7a~srvts=1722276948072~collid=83669",
-          sla: {
-            deliveryTime: 28,
-            lastMileTravel: 5.5,
-            serviceability: "SERVICEABLE",
-            slaString: "25-30 mins",
-            lastMileTravelString: "5.5 km",
-            iconType: "ICON_TYPE_EMPTY",
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Burger.png",
+            description: "Delivery!",
           },
-          availability: {
-            nextCloseTime: "2024-07-30 00:30:00",
-            opened: true,
-          },
-          badges: {
-            imageBadges: [
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                imageId: "Rxawards/_CATEGORY-Burger.png",
-                description: "Delivery!",
-              },
-            ],
-            textExtendedBadges: [
-              {
-                iconId: "v1705582451/Ratnesh_Badges/Perfect_cake.png",
-                shortDescription: "Perfect cake delivery",
-                fontColor: "#7E808C",
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textBased: {},
-              imageBased: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      imageId: "Rxawards/_CATEGORY-Burger.png",
-                      description: "Delivery!",
-                    },
-                  },
-                ],
-              },
-              textExtendedBadges: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      fontColor: "#7E808C",
-                      iconId: "v1705582451/Ratnesh_Badges/Perfect_cake.png",
-                      description: "",
-                      shortDescription: "Perfect cake delivery",
-                    },
-                  },
-                ],
-              },
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹149",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=358341&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹59",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
       },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/burger-king-tasker-town-shivaji-nagar-rest5938",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "274766",
-          name: "Mealful Rolls - India's Biggest Rolls",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/6aa2c82d-9bc7-4ca0-8849-1ceab1eeb16e_274766.JPG",
-          locality: "ELECTRONIC CITY PHASE 2",
-          areaName: "PRASANNA LAYOUT,2nd Phase",
-          costForTwo: "₹250 for two",
-          cuisines: ["Fast Food", "Snacks", "North Indian", "Desserts"],
-          avgRating: 4.3,
-          parentId: "10390",
-          avgRatingString: "4.3",
-          totalRatingsString: "100+",
-          sla: {
-            deliveryTime: 35,
-            lastMileTravel: 1.6,
-            serviceability: "SERVICEABLE",
-            slaString: "25-35 mins",
-            lastMileTravelString: "1.6 km",
-            iconType: "ICON_TYPE_EMPTY",
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "392828",
+      name: "Big Bowl",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/deff0d02-ca1d-4ef9-9d62-b0cbeabf33d3_392828.JPG",
+      locality: "Chikka Lakshmaiah Layout",
+      areaName: "Adugodi",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Chinese", "Tibetan", "Desserts"],
+      avgRating: 4.4,
+      parentId: "434792",
+      avgRatingString: "4.4",
+      totalRatingsString: "3.1K+",
+      sla: {
+        deliveryTime: 78,
+        lastMileTravel: 7,
+        serviceability: "SERVICEABLE",
+        slaString: "75-80 mins",
+        lastMileTravelString: "7.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-03-24 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹129",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/big-bowl-chikka-lakshmaiah-layout-adugodi-rest392828",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "121116",
+      name: "Lassi Shop",
+      cloudinaryImageId: "zb6egicrpwz0gyetyme0",
+      locality: "Khau Gali",
+      areaName: "Basavanagudi",
+      costForTwo: "₹100 for two",
+      cuisines: ["Juices", "Ice Cream", "Desserts"],
+      avgRating: 4.1,
+      veg: true,
+      parentId: "587",
+      avgRatingString: "4.1",
+      totalRatingsString: "2.8K+",
+      sla: {
+        deliveryTime: 45,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "40-45 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-03-23 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹95",
+        discountTag: "POCKET HERO",
+        discountCalloutInfo: {
+          message: "Free Delivery",
+          logoCtx: {
+            logo: "v1655895371/free_delivery_logo_hqipbo.png",
           },
-          availability: {
-            nextCloseTime: "2024-07-30 02:00:00",
-            opened: true,
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/lassi-shop-khau-gali-basavanagudi-rest121116",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "588619",
+      name: "KFC",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/4398bfb2-6948-484a-9613-2d7628a2457a_588619.JPG",
+      locality: "Brigade Road",
+      areaName: "Central Bangalore",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+      avgRating: 4.5,
+      parentId: "547",
+      avgRatingString: "4.5",
+      totalRatingsString: "2.4K+",
+      sla: {
+        deliveryTime: 33,
+        lastMileTravel: 2.8,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "2.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-03-23 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹59",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.0",
+          ratingCount: "378",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/kfc-brigade-road-central-bangalore-rest588619",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "3241",
+      name: "Meghana Foods",
+      cloudinaryImageId: "e0vvulfbahjxjz6k4uwi",
+      locality: "Residency Road",
+      areaName: "Residency Road",
+      costForTwo: "₹500 for two",
+      cuisines: ["Biryani", "Andhra", "South Indian", "Chinese", "Seafood"],
+      avgRating: 4.7,
+      parentId: "635",
+      avgRatingString: "4.7",
+      totalRatingsString: "83K+",
+      sla: {
+        deliveryTime: 33,
+        lastMileTravel: 2.6,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "2.6 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-03-23 23:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Biryani.png",
+            description: "Delivery!",
           },
-          badges: {
-            textExtendedBadges: [
+        ],
+      },
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
               {
-                iconId: "guiltfree/GF_Logo_android_3x",
-                shortDescription: "options available",
-                fontColor: "#7E808C",
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Biryani.png",
+                },
               },
             ],
           },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              imageBased: {},
-              textExtendedBadges: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      description: "",
-                      shortDescription: "options available",
-                      fontColor: "#7E808C",
-                      iconId: "guiltfree/GF_Logo_android_3x",
-                    },
-                  },
-                ],
-              },
-              textBased: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "₹100 OFF",
-            subHeader: "ABOVE ₹299",
-            discountTag: "FLAT DEAL",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          textBased: {},
+          textExtendedBadges: {},
         },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=274766&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
       },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.3",
+          ratingCount: "21K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
       },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
-  },
-  {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "784306",
-          name: "Nashville Fried Chicken - NFC",
-          cloudinaryImageId: "c771e40804736f69226d4e5993804b88",
-          locality: "DODDATHOGUR",
-          areaName: "BEGUR",
-          costForTwo: "₹350 for two",
-          cuisines: ["American", "Burgers", "Fast Food"],
-          avgRating: 4.3,
-          parentId: "464434",
-          avgRatingString: "4.3",
-          totalRatingsString: "100+",
-          promoted: true,
-          adTrackingId:
-            "cid=15478931~p=7~adgrpid=15478931#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=784306~eid=d4eaf61c-0df4-429c-a7a5-e43e8c52bab1~srvts=1722276948072~collid=83669",
-          sla: {
-            deliveryTime: 35,
-            lastMileTravel: 6.2,
-            serviceability: "SERVICEABLE",
-            slaString: "30-35 mins",
-            lastMileTravelString: "6.2 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-30 04:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textBased: {},
-              imageBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "ITEMS",
-            subHeader: "AT ₹179",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=784306&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
-      },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
-      },
+    analytics: {
+      context: "seo-data-688832e9-0502-4e59-90f0-a0900ad89178",
     },
-  },
-  {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "289251",
-          name: "BOX8 - Desi Meals",
-          cloudinaryImageId:
-            "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/24/38827933-cb46-4b0d-9fb9-a88432aae33a_289251.jpg",
-          locality: "2nd Phase",
-          areaName: "Electronic City",
-          costForTwo: "₹200 for two",
-          cuisines: ["North Indian", "Biryani", "Thalis", "Home Food"],
-          avgRating: 4.4,
-          parentId: "10655",
-          avgRatingString: "4.4",
-          totalRatingsString: "1K+",
-          sla: {
-            deliveryTime: 30,
-            lastMileTravel: 1.6,
-            serviceability: "SERVICEABLE",
-            slaString: "20-30 mins",
-            lastMileTravelString: "1.6 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-30 02:00:00",
-            opened: true,
-          },
-          badges: {
-            textExtendedBadges: [
-              {
-                iconId: "guiltfree/GF_Logo_android_3x",
-                shortDescription: "options available",
-                fontColor: "#7E808C",
-              },
-            ],
-          },
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textBased: {},
-              imageBased: {},
-              textExtendedBadges: {
-                badgeObject: [
-                  {
-                    attributes: {
-                      iconId: "guiltfree/GF_Logo_android_3x",
-                      description: "",
-                      shortDescription: "options available",
-                      fontColor: "#7E808C",
-                    },
-                  },
-                ],
-              },
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "₹100 OFF",
-            subHeader: "ABOVE ₹299",
-            discountTag: "FLAT DEAL",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=289251&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
-      },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
-      },
+    cta: {
+      link: "https://www.swiggy.com/city/bangalore/meghana-foods-residency-road-rest3241",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-  },
-  {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "178398",
-          name: "Desi Dhaba",
-          cloudinaryImageId: "15807c5d79984bfa5703962f4748d4b3",
-          locality: "Electronic City",
-          areaName: "Electronic City",
-          costForTwo: "₹350 for two",
-          cuisines: ["North Indian"],
-          avgRating: 3.4,
-          parentId: "3913",
-          avgRatingString: "3.4",
-          totalRatingsString: "5K+",
-          promoted: true,
-          adTrackingId:
-            "cid=15803063~p=8~adgrpid=15803063#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=178398~eid=9867862a-9a76-46aa-a4d6-9fc897e08b3c~srvts=1722276948072~collid=83669",
-          sla: {
-            deliveryTime: 30,
-            lastMileTravel: 4,
-            serviceability: "SERVICEABLE",
-            slaString: "25-30 mins",
-            lastMileTravelString: "4.0 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-29 23:55:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textBased: {},
-              imageBased: {},
-              textExtendedBadges: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "₹125 OFF",
-            subHeader: "ABOVE ₹249",
-            discountTag: "FLAT DEAL",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "4.7",
-              ratingCount: "100+",
-            },
-            source: "GOOGLE",
-            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=178398&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
-      },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
-      },
-    },
-  },
-  {
-    card: {
-      card: {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        info: {
-          id: "714269",
-          name: "Bigg Cafe",
-          cloudinaryImageId: "778bb38160de46e4f4f537a15ed2bbd8",
-          locality: "Shanthi Pura",
-          areaName: "Electronic City",
-          costForTwo: "₹300 for two",
-          cuisines: ["Cafe", "Beverages", "Desserts", "Snacks"],
-          avgRating: 4.1,
-          parentId: "426349",
-          avgRatingString: "4.1",
-          totalRatingsString: "9",
-          sla: {
-            deliveryTime: 21,
-            lastMileTravel: 1.5,
-            serviceability: "SERVICEABLE",
-            slaString: "20-25 mins",
-            lastMileTravelString: "1.5 km",
-            iconType: "ICON_TYPE_EMPTY",
-          },
-          availability: {
-            nextCloseTime: "2024-07-30 05:00:00",
-            opened: true,
-          },
-          badges: {},
-          isOpen: true,
-          type: "F",
-          badgesV2: {
-            entityBadges: {
-              textExtendedBadges: {},
-              textBased: {},
-              imageBased: {},
-            },
-          },
-          aggregatedDiscountInfoV3: {
-            header: "30% OFF",
-            subHeader: "UPTO ₹75",
-          },
-          orderabilityCommunication: {
-            title: {},
-            subTitle: {},
-            message: {},
-            customIcon: {},
-          },
-          differentiatedUi: {
-            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            differentiatedUiMediaDetails: {
-              mediaType: "ADS_MEDIA_ENUM_IMAGE",
-              lottie: {},
-              video: {},
-            },
-          },
-          reviewsSummary: {},
-          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          restaurantOfferPresentationInfo: {},
-          externalRatings: {
-            aggregatedRating: {
-              rating: "--",
-            },
-          },
-          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-        },
-        analytics: {},
-        cta: {
-          link: "swiggy://menu?restaurant_id=714269&source=collection&query=Roll",
-          text: "RESTAURANT_MENU",
-          type: "DEEPLINK",
-        },
-        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
-      },
-      relevance: {
-        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
-        sectionId: "MENU_RETURN_FOOD",
-      },
-    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
 ];

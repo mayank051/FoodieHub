@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Card from "./Card";
 import { respData } from "../mocks/mockData";
 const Body = () => {
-  const [listOfRestaurants, setListOfRestaurants] = useState(respData);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
   useEffect(() => {
     fetchRestaurants();
@@ -10,11 +10,13 @@ const Body = () => {
 
   const fetchRestaurants = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.8389444&lng=77.6898209&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.97530&lng=77.59100&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const jsonData = await data.json();
-    console.log("Data-->", jsonData);
-    // setListOfRestaurants(jsonData.data);
+    setListOfRestaurants(
+      jsonData.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants || []
+    );
   };
   return (
     <div className="body">
@@ -24,9 +26,8 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
-              (res) => res.card.card.info.avgRating > 4.3
+              (res) => res.info.avgRating > 4.3
             );
-            console.log(filteredList);
             setListOfRestaurants(filteredList);
           }}
         >
@@ -35,7 +36,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {listOfRestaurants.map((resp) => {
-          const restaurantData = resp.card.card.info;
+          const restaurantData = resp.info;
           return <Card resData={restaurantData} key={restaurantData.id} />;
         })}
       </div>
