@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import Card from "./Card";
 import { respData } from "../mocks/mockData";
+import Shimmer from "./Shimmer";
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchRestaurants();
@@ -13,12 +15,16 @@ const Body = () => {
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.97530&lng=77.59100&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const jsonData = await data.json();
+    setLoading(false);
     setListOfRestaurants(
       jsonData.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants || []
     );
   };
-  return (
+
+  return loading ? (
+    <Shimmer />
+  ) : (
     <div className="body">
       <div className="search-bar">Search</div>
       <div className="filter">
