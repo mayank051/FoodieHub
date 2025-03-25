@@ -4,6 +4,10 @@ import { respData } from "../mocks/mockData";
 import Shimmer from "./Shimmer";
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
+  const [filteredListOfRestaurants, setFilteredListOfRestaurants] = useState(
+    []
+  );
+  const [searchInput, setSearchInput] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -16,32 +20,49 @@ const Body = () => {
     );
     const jsonData = await data.json();
     setLoading(false);
-    setListOfRestaurants(
+    const resList =
       jsonData.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants || []
-    );
+        ?.restaurants || [];
+    setListOfRestaurants(resList);
+    setFilteredListOfRestaurants(resList);
+  };
+
+  const handleSearch = () => {
+    const filteredList = listOfRestaurants.filter((res) => {
+      const resName = res.info.name.toLowerCase();
+      if (resName.includes(searchInput.toLowerCase())) return true;
+      return false;
+    });
+    setFilteredListOfRestaurants(filteredList);
   };
 
   return loading ? (
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="search-bar">Search</div>
       <div className="filter">
+        <div className="search-container">
+          <input
+            className="search-bar"
+            value={searchInput}
+            onChange={(e) => setSearchInput(e.target.value)}
+          ></input>
+          <button onClick={handleSearch}>Search</button>
+        </div>
         <button
           className="filter-btn"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
               (res) => res.info.avgRating > 4.3
             );
-            setListOfRestaurants(filteredList);
+            setFilteredListOfRestaurants(filteredList);
           }}
         >
           Top rated Restaurants
         </button>
       </div>
       <div className="res-container">
-        {listOfRestaurants.map((resp) => {
+        {filteredListOfRestaurants.map((resp) => {
           const restaurantData = resp.info;
           return <Card resData={restaurantData} key={restaurantData.id} />;
         })}
