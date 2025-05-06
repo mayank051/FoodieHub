@@ -15,4 +15,18 @@ const Card = ({ resData }) => {
   );
 };
 
+//HOC for displaying label for top rated restaurant
+export const withTopRatedLabel = (ResCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute bg-black text-white rounded-2xl m-2 p-2">
+          Top Rated
+        </label>
+        <ResCard {...props} />
+      </div>
+    );
+  };
+};
+
 export default Card;

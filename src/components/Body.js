@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
-import Card from "./Card";
+import Card, { withTopRatedLabel } from "./Card";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { RESTAURANT_LISTING_URL } from "../utils/constants";
 import useOnlineStatus from "../hooks/useOnlineStatus";
+
+const RestaurantCardTopRated = withTopRatedLabel(Card);
+
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredListOfRestaurants, setFilteredListOfRestaurants] = useState(
@@ -77,7 +80,14 @@ const Body = () => {
           const restaurantData = resp.info;
           return (
             <Link to={"/restaurant/" + restaurantData.id}>
-              <Card resData={restaurantData} key={restaurantData.id} />
+              {restaurantData.avgRating >= 4.5 ? (
+                <RestaurantCardTopRated
+                  resData={restaurantData}
+                  key={restaurantData.id}
+                />
+              ) : (
+                <Card resData={restaurantData} key={restaurantData.id} />
+              )}
             </Link>
           );
         })}
