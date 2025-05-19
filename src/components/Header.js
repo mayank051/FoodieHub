@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../hooks/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
   const [authButton, setAuthButton] = useState("Login");
   const onlineStatus = useOnlineStatus();
+  const { userInfo } = useContext(UserContext);
+
   const handleAuthClick = () => {
     setAuthButton((prev) => (prev === "Login" ? "Logout" : "Login"));
   };
@@ -37,9 +40,18 @@ const Header = () => {
           <li className="px-4">
             <Link>Cart</Link>
           </li>
-          <button className="px-4" onClick={handleAuthClick}>
-            {authButton}
-          </button>
+          <li className="px-4">
+            <Link to="/profile">Profile</Link>
+          </li>
+          {userInfo.name ? (
+            <li className="px-4">
+              <Link>{userInfo.name}</Link>
+            </li>
+          ) : (
+            <button className="px-4" onClick={handleAuthClick}>
+              {authButton}
+            </button>
+          )}
         </ul>
       </div>
     </div>
