@@ -8,6 +8,7 @@ import MenuCategory from "./MenuCategory";
 const RestaurantMenu = () => {
   const { resId } = useParams();
   const resData = useRestaurantMenu(resId);
+  const [menuExpandedIndex, setMenuExpandedIndex] = useState(0);
   const {
     name,
     costForTwoMessage,
@@ -28,10 +29,16 @@ const RestaurantMenu = () => {
       <p className="font-bold text-lg">
         {cuisinesString} | {costForTwoMessage} | {totalRatingsString}
       </p>
-      {menuCategories.map((category) => (
+      {menuCategories.map((category, index) => (
         <MenuCategory
           data={category?.card?.card}
           key={category?.card?.card?.categoryId}
+          expanded={index === menuExpandedIndex}
+          setMenuExpandedIndex={() =>
+            menuExpandedIndex === index
+              ? setMenuExpandedIndex(null)
+              : setMenuExpandedIndex(index)
+          }
         />
       ))}
     </div>
